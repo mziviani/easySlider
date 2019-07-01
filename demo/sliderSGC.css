@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+#slider {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+}
+#slider ul {
+  padding: 0px;
+  margin: 0px;
+}
+#slider ul li {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity ease 1s;
+}
+#slider ul li:first-child {
+  opacity: 1;
+}
+#slider ul li img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
